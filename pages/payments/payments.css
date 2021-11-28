@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+    font-style:  normal;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../../assets/fonts/static/Inter-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('../../assets/fonts/static/Inter-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden ;
+}
+.sidebar{
+    background:url(../../assets/images/side-bar-bg.svg);
+    min-width: 243px;
+    max-width: 243px;
+    height: 100vh;
+    position: fixed;
+}
+.side-nav{
+    height: 100%;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center; 
+    color: #FFFFFF;    
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+.side-menu.active{
+    background: rgba(255, 255, 255, 0.31);
+    border-left: 6px solid #F5703A;
+}
+.side-link{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF !important;    
+    text-decoration: none !important;
+}
+.side-link:hover{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;    
+    text-decoration: none !important;
+}
+.side-link.active, .side-link.active:hover{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;    
+    text-decoration: none !important;
+
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    background:  #faf8f8;
+}
+.body-main{
+    background: #faf8f8;
+    margin-left: 310px;
+    width: 75%;
+}
+
+
+.small-card{   
+    background: #F5703A;
+    border-radius: 16px;    
+    width: 317px;
+    height: 255px;
+}
+.small-card p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.small-card h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;    
+}
+.small-card span{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px; 
+    color: #FFFFFF;
+}
+.small-card button{
+    font-family: 'Montserrat', sans-serif;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F5703A;        
+}
+.small-card .wallet-balance{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.history{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 18px;
+    color: #000000;
+    
+}
+.see-history, .see-history:hover{
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.7);
+}
+.view-history{
+   
+    background: rgba(245, 112, 58, 0.03);
+}
+.bg-white{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-right: 18px !important;
+    margin-left: 18px !important;
+    border-radius: 4px;
+    /* height: 65px; */
+}
+.price{
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 18px !important;
+    color: #F5703A !important;
+}
+.bold-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    
+}
+.bg-white p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 11px;  
+    color: #000000;    
+}
+.history-date{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;    
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.orange-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 18px; 
+    color: #F5703A;    
+}
+.delivery-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 265px;    
+}
+.delivery-cardd{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 265px;    
+}
+
+::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #000000;
+    padding-left: 35px;
+}
+.payment-icon{
+    position: absolute;
+    left: 10.25%;
+    top: 20.75%;
+
+}
+
+.payment-icon-2{
+    position: absolute;
+    left: 10.25%;
+    top: 36.75%;
+}
+
+.payment-icon-3{
+    position: absolute;
+    left: 10.25%;
+    top: 51.75%;
+}
+
+.payment-icon-4{
+    position: absolute;
+    left: 10.25%;
+    top: 87.75%;
+}
+
+textarea{
+    width: 286px;
+    height: 64px;
+    background: #EEEEEE;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+.delivery-card-heading{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #000000;    
+}
+.delivery-card-sub-heading{
+    font-family: 'Inter', sans-serif;
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.035em; 
+    color: rgba(0, 0, 0, 0.3);    
+}
+input{
+    font-family: 'Inter', sans-serif;
+    width: 286px;
+    height: 32px;   
+    background: #EEEEEE;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;    
+}
+.arrow-icon{
+    position: absolute;
+    left: 72.62%;
+    top: 91.3%;
+}
+.arrow-icon-2{
+    position: absolute;
+    left: 77.62%;
+    top: 89.3%;
+}
+
+.book-dispatch{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #F5703A;
+    border-radius: 4px;
+}
+
+.wallet-info{
+    border: 1px solid  #b1aeae;
+    border-radius: 5px;
+}
+.checked-radio-btn{
+    position: absolute;
+    left: 288px;
+    top: 56px;
+}
+.radio-btn{
+    position: absolute;
+    left: 286px;
+    top: 94px;
+}
+.radio-btn-2{
+    position: absolute;
+    left: 287px;
+    top: 135px;    
+}
+.payment-history-heading{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.heading{
+    text-align: center;
+}
+.payment-history{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #000000;
+}
