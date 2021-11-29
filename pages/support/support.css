@@ -216,7 +216,7 @@ body{
     font-style: normal;
     font-weight: 500 !important;
     font-size: 16px !important;
-    line-height: 18px !important;
+    line-height: 13px !important;
     color: #000000 !important;    
 }
 .bg-white p{
@@ -407,7 +407,7 @@ input{
     font-style: normal;
     font-weight: 500 !important;
     font-size: 18px !important;
-    line-height: 18px !important;
+    line-height: 20px !important;
     color: #F5703A !important;
 }
 .get-help{
@@ -418,4 +418,12 @@ input{
     line-height: 18px !important;
     letter-spacing: -0.035em !important;
     color: rgba(0, 0, 0, 0.8) !important;    
+}
+.contact-us{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px !important;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.8);    
 }
