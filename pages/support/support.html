@@ -66,9 +66,13 @@
       
                 </ul> <br> <br> 
                 <div>
-                    <a class="side-link pl-4 mt-1 mb-2"> 
-                    <img src="../../assets/images/settings.svg" class="mr-2" alt="Log-out">
-                    Log-out
+                  <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                    </button> -->
+                    <a class="side-link pl-4 mt-1 mb-2"  data-bs-toggle="modal" data-bs-target="#logoutModal"> 
+                        <img src="../../assets/images/settings.svg" class="mr-2" alt="Log-out">
+                        Log-out
                     </a>
                 </div>
             </nav>
@@ -121,13 +125,13 @@
 
                 <div class="col-6">
                     <div class="d-flex">
-                        <img src="../../assets/images/mail.svg" class="pr-2" alt=" mail icon">
+                        <img src="../../assets/images/mail.svg" class="pr-2" alt="mail icon">
                         <p class="pr-2 pt-3">  Mail:</p>
                         <p class="pt-3 bold-text">Darum@support.ng</p>
                     </div>
 
                     <div class="d-flex">
-                        <img src="../../assets/images/call.svg" class="pr-2" alt=" call icon">
+                        <img src="../../assets/images/call.svg" class="pr-2" alt="call icon">
                         <p class="pr-2 pt-3"> Phone No:</p>
                         <p class="pt-3 bold-text">08094949499</p>
                     </div>
@@ -147,11 +151,6 @@
                     <button class="btn btn-lg py-2 px-4 mt-3 ml-1 mb-5 book-dispatch"> 
                         Submit
                     </button>
-
-                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
-                      </button>
-                       -->
                 </div>
             </div>
 
@@ -163,7 +162,7 @@
     <!-- end main -->
 
     <!-- Log out modal -->
-    <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+     <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog prof-mod" role="document">
           <div class="modal-content p-5">
             <div class="row mb-3">
@@ -270,27 +269,34 @@
                 for Laboratory test</p>
           </div>
         </div>
-      </div> -->
+      </div>  -->
 
 
-      <!-- test modal -->
-      <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div> -->
+     
+
+
+      <!-- modal -->
+      
+  
+  
+  <!-- Modal -->
+            <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+                </div>
+            </div> -->
 
 
 
@@ -298,18 +304,5 @@
 
 
 
-
-
-
-
-      <!-- <script>
-            var myModal = document.getElementById('exampleModal')
-            var myInput = document.getElementById('myInput')
-
-            myModal.addEventListener('shown.bs.modal', function () {
-            myInput.focus()
-            })
-            
-      </script> -->
 </body>
 </html>
