@@ -328,18 +328,35 @@ input{
     box-sizing: border-box;
     border-radius: 4px;    
 }
+input[type="radio"]{
+    background-color: red !important;
+    height: 15px !important; 
+}
 .arrow-icon{
     position: absolute;
     left: 72.62%;
     top: 91.3%;
 }
-.arrow-icon-2{
+.card-payment{
     position: absolute;
-    left: 77.62%;
-    top: 89.3%;
+    left: 146px;
+    top: -34px;
+    background-color: #EEEEEE !important;
+    border: 1px solid rgba(48, 48, 48, 0.3) !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
 }
-
-.book-dispatch{
+.bank-transfer{
+    position: absolute;
+    left: 146px;
+    top: -34px;    
+}
+.ussd{
+    position: absolute;
+    left: 146px;
+    top: -34px;    
+}
+.confirm{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -388,3 +405,49 @@ input{
     line-height: 18px; 
     color: #000000;
 }
+
+/* dropdown */
+.dropbtn {
+  position: absolute;
+  left: 26px;
+    top: 249px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none !important;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background: none !important;
+}
+
+.dropdown {
+  position: absolute;
+  left: 245px;
+    top: -41px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -220px;
+  top: 290px;
+  background-color:#EEEEEE;
+  min-width: 284px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown a:hover {background-color: #ddd;} */
+
+.show {display: block;}

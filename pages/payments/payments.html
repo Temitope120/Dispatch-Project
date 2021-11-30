@@ -103,32 +103,51 @@
                             <p class="delivery-card-heading">Choose a Payment Type</p>
                             <input type="text" placeholder="Card Payments" class="mb-2">
                             <img src="../../assets/images/payment-type-1.svg" alt="card" class="payment-icon">
-                            <img src="../../assets/images/checked-1.svg" alt="checked radio button" class="checked-radio-btn">
+
+                            <div class="form-check">
+                                <input class="form-check-input card-payment" type="radio" name="card" id="card">
+
+                            </div>
 
                             <input type="text" placeholder="Bank Transfer" class="mb-2">
                             <img src="../../assets/images/bank-transfer-icon.svg" alt="card" class="payment-icon-2">
-                            <img src="../../assets/images/checked-2.svg" alt="radio-btn" class="radio-btn" >
+                            <div class="form-check">
+                                <input class="form-check-input bank-transfer" type="radio" name="bankTransfer" id="bankTransfer">
+
+                            </div>
 
                             <input type="text" placeholder="USSD" class="mb-2">
                             <img src="../../assets/images/ussd.svg" alt="card" class="payment-icon-3">
-                            <img src="../../assets/images/checked-2.svg" alt="radio-btn" class="radio-btn-2" >
+                            
+                            <div class="form-check"> 
+                                <input class="form-check-input ussd" type="radio" name="ussd" id="ussd">
+
+                            </div>
 
 
 
                             <input type="text" placeholder="Use Old card details" class="mb-2 mt-5">
                             <img src="../../assets/images/old-card.svg" alt="card" class="payment-icon-4">
-                            <img src="../../assets/images/arrow-icon.svg" alt="arrow icon" class="arrow-icon-2">
-                        
+
+                            <div class="dropdown">
+                                <img src="../../assets/images/arrow-icon.svg" alt="dropdown icon" onclick="myFunction()" class="dropbtn">
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#">Use old card details</a>
+
+                                </div>
+                            </div>
+                              
 
 
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="col-8">
-                    <div class="row mb-5 pb-3 wallet-info mt-5">
-                        
-                            <div class="col-10">
+                    <div class="row mb-5 pb-3  mt-5">
+                        <div class="wallet-info">
+                            <div class="col-12">
                                 <div class="row">
                                     <div class="col-6">
                                         <span class="delivery-card-sub-heading">
@@ -147,7 +166,7 @@
                             </div>
 
 
-                            <div class="col-10">
+                            <div class="col-12">
                                 <div class="row">
                                     <div class="col-6">
                                         <span class="delivery-card-sub-heading">
@@ -167,10 +186,13 @@
                                 <div class="row">
                                     <div class="col-9"></div>
                                     <div class="col-3">
-                                        <button class="btn btn-lg py-2 px-4 mt-3 ml-5 book-dispatch"> Confirm</button>
+                                        <button class="btn btn-lg py-2 px-4 mt-3 ml-3 mb-3 confirm"> Confirm</button>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        
+
                     </div>
                 </div>
     
@@ -444,6 +466,28 @@
 
     </div>
 
+
+
+
+
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
     <!-- end main -->
 </body>
 </html>
