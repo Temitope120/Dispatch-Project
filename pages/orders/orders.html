@@ -123,7 +123,7 @@
                                 <span class="delivery-card-sub-heading"> Delivery Type</span>
 
                                 <input type="text" placeholder="Single" name="deliveryType" id="deliveryType" >
-                                 <img src="../../assets/images/arrow-icon.svg" alt="arrow icon" class="arrow-icon">
+                                 <!-- <img src="../../assets/images/arrow-icon.svg" alt="arrow icon" class="arrow-icon"> -->
 
 
                                  <div class="dropdown">
@@ -147,12 +147,12 @@
                             <form action="">
                                 <input type="text" placeholder="Card" class="mb-1">
                                 <img src="../../assets/images/card-img.svg" alt="card" class="payment-icon">
-                                <img src="../../assets/images/arrow-icon.svg" alt="arrow icon" class="arrow-icon-2">
+                                <!-- <img src="../../assets/images/arrow-icon.svg" alt="arrow icon" class="arrow-icon-2"> -->
 
 
                                 <div class="dropdown">
-                                    <img src="../../assets/images/arrow-icon.svg" alt="dropdown icon" onclick="myFunction()" class="dropbtn">
-                                    <div id="myDropdown" class="dropdown-content">
+                                    <img src="../../assets/images/arrow-icon.svg" alt="dropdown icon" onclick="myNewFunction()" class="dropbtnn">
+                                    <div id="myDropdown2" class="dropdown-contentt">
                                       <a href="#">Card</a>
     
                                     </div>
@@ -428,6 +428,10 @@
           document.getElementById("myDropdown").classList.toggle("show");
         }
         
+
+        function myNewFunction() {
+          document.getElementById("myDropdown2").classList.toggle("show");
+        }
         window.onclick = function(event) {
           if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");

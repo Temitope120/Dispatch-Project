@@ -319,3 +319,116 @@ input{
     background: #F5703A;
     border-radius: 4px;
 }
+
+
+/* dropdown */
+.dropbtn {
+    position: absolute;
+    left: 26px;
+    top: 234px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none !important;
+    cursor: pointer;
+}
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background: none !important;
+  }
+  
+  .dropdown {
+    position: absolute;
+    left: 245px;
+      top: -41px;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -220px;
+    top: 280px;
+    background-color:#EEEEEE;
+    min-width: 284px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-contentt {
+    display: none;
+    position: absolute;
+    left: -220px;
+    top: 290px;
+    background-color:#EEEEEE;
+    min-width: 284px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .show {display: block;}
+
+
+
+  /*  */
+  .dropbtnn {
+    position: absolute;
+    left: 26px;
+    top: 112px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none !important;
+    cursor: pointer;
+}
+  
+  .dropbtnn:hover, .dropbtnn:focus {
+    background: none !important;
+  }
+  
+  .dropdown {
+    position: absolute;
+    left: 245px;
+      top: -41px;
+    display: inline-block;
+  }
+  
+  .dropdown-contentt {
+    display: none;
+    position: absolute;
+    left: -220px;
+    top: 154px;
+    background-color:#EEEEEE;
+    min-width: 284px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-contentt {
+    display: none;
+    position: absolute;
+    left: -220px;
+    top: 149px;
+    background-color:#EEEEEE;
+    min-width: 284px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contentt a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .show {display: block;}
