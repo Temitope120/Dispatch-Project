@@ -268,27 +268,27 @@ body{
 }
 .payment-icon{
     position: absolute;
-    left: 10.25%;
+    left: 8.25%;
     top: 20.75%;
 
 }
 
 .payment-icon-2{
     position: absolute;
-    left: 10.25%;
-    top: 36.75%;
+    left: 8.25%;
+    top: 38.75%;
 }
 
 .payment-icon-3{
     position: absolute;
-    left: 10.25%;
-    top: 51.75%;
+    left: 8.25%;
+    top: 54.75%;
 }
 
 .payment-icon-4{
     position: absolute;
-    left: 10.25%;
-    top: 87.75%;
+    left: 8.25%;
+    top: 86.75%;
 }
 
 textarea{
@@ -340,7 +340,7 @@ input[type="radio"]{
 .card-payment{
     position: absolute;
     left: 146px;
-    top: -34px;
+    top: -46px;
     background-color: #EEEEEE !important;
     border: 1px solid rgba(48, 48, 48, 0.3) !important;
     box-sizing: border-box !important;
@@ -349,12 +349,12 @@ input[type="radio"]{
 .bank-transfer{
     position: absolute;
     left: 146px;
-    top: -34px;    
+    top: -46px;    
 }
 .ussd{
     position: absolute;
     left: 146px;
-    top: -34px;    
+    top: -46px;    
 }
 .confirm{
     font-family: 'Montserrat', sans-serif;
@@ -405,12 +405,28 @@ input[type="radio"]{
     line-height: 18px; 
     color: #000000;
 }
+.payment-type-div{
+    width: 286px;
+    height: 32px;
+    background: #EEEEEE;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.payment-type-div p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #000000;    
+}
 
 /* dropdown */
 .dropbtn {
   position: absolute;
   left: 26px;
-    top: 249px;
+    top: 244px;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -447,7 +463,5 @@ input[type="radio"]{
   text-decoration: none;
   display: block;
 }
-
-/* .dropdown a:hover {background-color: #ddd;} */
 
 .show {display: block;}

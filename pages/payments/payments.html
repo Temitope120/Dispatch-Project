@@ -101,42 +101,52 @@
                     <div class="row">
                         <div class="col-12 pt-3 pl-4">
                             <p class="delivery-card-heading">Choose a Payment Type</p>
-                            <input type="text" placeholder="Card Payments" class="mb-2">
-                            <img src="../../assets/images/payment-type-1.svg" alt="card" class="payment-icon">
-
-                            <div class="form-check">
-                                <input class="form-check-input card-payment" type="radio" name="card" id="card">
-
-                            </div>
-
-                            <input type="text" placeholder="Bank Transfer" class="mb-2">
-                            <img src="../../assets/images/bank-transfer-icon.svg" alt="card" class="payment-icon-2">
-                            <div class="form-check">
-                                <input class="form-check-input bank-transfer" type="radio" name="bankTransfer" id="bankTransfer">
-
-                            </div>
-
-                            <input type="text" placeholder="USSD" class="mb-2">
-                            <img src="../../assets/images/ussd.svg" alt="card" class="payment-icon-3">
-                            
-                            <div class="form-check"> 
-                                <input class="form-check-input ussd" type="radio" name="ussd" id="ussd">
-
-                            </div>
-
-
-
-                            <input type="text" placeholder="Use Old card details" class="mb-2 mt-5">
-                            <img src="../../assets/images/old-card.svg" alt="card" class="payment-icon-4">
-
-                            <div class="dropdown">
-                                <img src="../../assets/images/arrow-icon.svg" alt="dropdown icon" onclick="myFunction()" class="dropbtn">
-                                <div id="myDropdown" class="dropdown-content">
-                                  <a href="#">Use old card details</a>
-
+                            <div class="payment-type-div mb-2">
+                                <p class="pl-4 py-2">Card Payments</p>
+                                <img src="../../assets/images/payment-type-1.svg" alt="card" class="payment-icon">
+                                <div class="form-check">
+                                    <input class="form-check-input card-payment" type="radio" name="card" id="card">
+    
                                 </div>
                             </div>
-                              
+
+                            <div class="payment-type-div mb-2">
+                                <img src="../../assets/images/bank-transfer-icon.svg" alt="card" class="payment-icon-2">
+                                <p class="pl-4 py-2">Bank Transfer</p>
+
+                                <div class="form-check">
+                                    <input class="form-check-input bank-transfer" type="radio" name="bankTransfer" id="bankTransfer">
+    
+                                </div>    
+                            </div>
+
+                            <div class="payment-type-div mb-2">
+                                <img src="../../assets/images/ussd.svg" alt="card" class="payment-icon-3">
+                                <p class="pl-4 py-2">USSD</p>
+                                <div class="form-check"> 
+                                    <input class="form-check-input ussd" type="radio" name="ussd" id="ussd">
+    
+                                </div>
+    
+    
+                            </div>
+                
+                            <div class="payment-type-div mb-2 mt-5">
+                                <img src="../../assets/images/old-card.svg" alt="card" class="payment-icon-4">
+                                <p class="pl-4 py-2">Use Old card details</p>
+
+                                <div class="dropdown">
+                                    <img src="../../assets/images/arrow-icon.svg" alt="dropdown icon" onclick="myFunction()" class="dropbtn">
+                                    <div id="myDropdown" class="dropdown-content">
+                                      <a href="#">Use old card details</a>
+    
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
 
 
                     
