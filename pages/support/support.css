@@ -428,13 +428,16 @@ input{
     color: rgba(0, 0, 0, 0.8);    
 }
 
+
+
+
 /* modal */
 .modal-btn{
     font-family: 'Inter', sans-serif;
     text-align: center !important;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;    
     background: #F5703A;
@@ -444,7 +447,7 @@ input{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight:600;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 30px;
     text-align: center;
     color: #F5703A;

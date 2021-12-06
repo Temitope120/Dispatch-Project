@@ -531,3 +531,37 @@ input{
     line-height: 17px !important; 
     color: rgba(0, 0, 0, 0.87) !important;    
 }
+
+
+
+
+/* modal */
+.modal-btn{
+    font-family: 'Inter', sans-serif;
+    text-align: center !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;    
+    background: #F5703A;
+    border-radius: 8px;
+}
+.modal-content h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight:600;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #F5703A;
+}
+.modal-content h4{
+    font-family: 'Inter', sans-serif;
+    text-align: center !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 18px;
+    color: #000;  
+}
