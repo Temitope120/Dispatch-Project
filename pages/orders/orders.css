@@ -343,7 +343,7 @@ input{
 .dropbtn {
     position: absolute;
     left: 26px;
-    top: 234px;
+    top: 231px;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -366,7 +366,7 @@ input{
     display: none;
     position: absolute;
     left: -220px;
-    top: 280px;
+    top: 267px;
     background-color:#EEEEEE;
     min-width: 284px;
     overflow: auto;
