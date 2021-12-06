@@ -87,7 +87,13 @@
                     <div>
                         <h6 class="p-2 name">Damilola Banks</h6>
                     </div>
-                    <img src="../../assets/images/damilola-banks.svg" alt="User-image">   
+                    <div class="droppdown">
+                        <img src="../../assets/images/damilola-banks.svg" alt="dropdown icon" onclick="userInfo()" class="drop-btn">
+                        <div id="myDropdown3" class="dropdown-conntent">
+                        <button type="button" class="btn sign-out-btn mt-4 mb-3">Sign out</button>
+
+                        </div>
+                    </div> 
                 </div>   
             </nav>
     
@@ -428,6 +434,28 @@
         
 
 
+
+
+
+
+
+        <script>
+            function userInfo() {
+              document.getElementById("myDropdown3").classList.toggle("show");
+            }
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
 
 
 
